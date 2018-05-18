@@ -3,7 +3,12 @@ $(document).ready(function(){
     var start_change = $('.nav');
     console.log("from script");
     var offset = start_change.offset();
-    if(start_change.length){
+    if($(window).width() <= 766){
+        console.log("in condition");
+        $(".navbar").css('margin','0 auto');
+        $(".navbar").css('text-align','center');
+    }
+    /*if(start_change.length){
         $(document).scroll(function(){
             scroll_start = $(this).scrollTop();
             if(scroll_start > offset.top){
@@ -13,6 +18,7 @@ $(document).ready(function(){
                 $(".navbar").css('transition','all 1s');
                 $(".navbar-nav > a").css('color','white');
                 $(".dropdown > a").css('color','white');
+                $("#myTogglerNav").css('color','white');
                 $(".navbar-nav > a").hover(function(){
                     $(this).css("color", "white");
                     }, function(){
@@ -53,6 +59,6 @@ $(document).ready(function(){
             });
             }
         });
-    }
+    }*/
 });
 
