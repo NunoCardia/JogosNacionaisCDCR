@@ -20,6 +20,24 @@
     background-size: cover;
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.letra{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.letra > p{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
 
 /*-------APOIOS--------*/
 .volei{
@@ -446,9 +464,10 @@ a.anchorApoios{
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-weight: 300;
     font-size: 2em;
-    border-bottom: 2px solid #3B94D9;
-    position: absolute;
-    left: 43%;
+    width: 20%;
+    border-bottom: 2px solid #3B94D9;    
+    text-align: center;
+    margin: 0 auto;
     color: black;
 }
 
