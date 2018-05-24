@@ -182,8 +182,8 @@
     width: 260px;
     height: 90px;
     padding-top: 30px;
-    padding-right: 0px;
-    padding-left: 60px;
+    padding-right: 54px;
+    padding-left: 38px;
     margin-top: 10px;
 }
 
@@ -191,8 +191,35 @@
     width: 230px;
     height: 90px;
     padding-top: 40px;
-    padding-right: 0px;
-    padding-left: 71px;
+    padding-right: 53px;
+    padding-left: 29px;
+    padding-bottom: 0px;
+}
+
+.habibah{
+    width: 230px;
+    height: 160px;
+    padding-top: 20px;
+    padding-right: 53px;
+    padding-left: 29px;
+    padding-bottom: 33px;
+}
+
+.henrique{
+    width: 230px;
+    height: 100px;
+    padding-top: 28px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+}
+
+.paul{
+    width: 200px;
+    height: 100px;
+    padding-top: 40px;
+    padding-right: 56px;
+    padding-left: 34px;
     padding-bottom: 0px;
 }
 
@@ -450,6 +477,13 @@ a.anchorApoios{
     display: block;
     position: relative;
     top: -90px;
+    visibility: hidden;
+}
+
+a.anchorHino{
+    display: block;
+    position: relative;
+    top: -110px;
     visibility: hidden;
 }
 

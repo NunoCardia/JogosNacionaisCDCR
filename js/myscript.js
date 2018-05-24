@@ -1,3 +1,7 @@
+function close_window() {
+  close();
+}
+
 $(document).ready(function(){
     var scroll_start = 0;
     var start_change = $('.nav');
