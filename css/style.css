@@ -15,6 +15,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding-top: 30px;
 }
 
 .letra{
@@ -27,6 +28,17 @@
     text-align: center;
     margin: 0 auto;
     padding-top: 20px;
+}
+
+.autores{
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.autores > p{
+    margin: 0;
+    text-align: center;
 }
 
 
@@ -286,6 +298,8 @@
     width: 100px;
 }
 
+ 
+
 video {
   width: 70%    !important;
   height: auto   !important;
@@ -488,8 +502,8 @@ a.anchorHino{
 }
 
 #coraisMain{
-    padding-top: 70px;
-    padding-bottom: 338px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     
 }
 
