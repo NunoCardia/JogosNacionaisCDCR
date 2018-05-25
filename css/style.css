@@ -286,6 +286,11 @@
     width: 100px;
 }
 
+video {
+  width: 70%    !important;
+  height: auto   !important;
+}
+
 .imagem{
     padding-top: 100px;
     height: 100vh;
