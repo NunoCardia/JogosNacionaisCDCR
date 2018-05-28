@@ -31,9 +31,12 @@
 }
 
 .autores{
+    width: 50%;
+    border-top: 2px solid #3B94D9;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
+    padding-top: 20px;
 }
 
 .autores > p{
@@ -165,7 +168,7 @@
 
 .peixoto{
     width: 260px;
-    height: 90px;
+    height: 110px;
     padding-top: 30px;
     padding-right: 126px;
     padding-left: 30px;
@@ -190,6 +193,14 @@
     margin-top: 10px;
 }
 
+.turismo{
+     width: 260px;
+    height: 160px;
+    padding-top: 10px;
+    padding-right: 54px;
+    padding-left: 38px;
+}
+
 .dao{
     width: 230px;
     height: 90px;
@@ -201,11 +212,10 @@
 
 .habibah{
     width: 230px;
-    height: 160px;
+    height: 127px;
     padding-top: 20px;
     padding-right: 53px;
     padding-left: 29px;
-    padding-bottom: 33px;
 }
 
 .henrique{

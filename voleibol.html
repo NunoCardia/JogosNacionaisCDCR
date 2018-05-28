@@ -18,109 +18,22 @@
     <header>
           <nav class="navbar fixed-top navbar-toggleable-sm" role="navigation" id="myNav">
             <div class="container">
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="myTogglerNav">
                 <div class="nav navbar-nav">
                     <a class="nav-item nav-link" href="index.html">Início</a>
-                    <a class="nav-item nav-link" href="#apresentacao">Apresentação</a>
                     <a class="nav-item nav-link" href="#apurados">Apurados</a>
                     <a class="nav-item nav-link" href="#regulamento">Regulamento</a>
                     <a class="nav-item nav-link" href="#calendario">Calendário</a>
                     <a class="nav-item nav-link" href="#resultados">Resultados</a>
                 </div> <!--navbar-nav-->
+                </div> <!--collapse-->
             </div> <!--container-->
         </nav>
         <div class="main">
             <img src="icons_modalidades/voleibol.png" alt="Icon Voleibol" id="icon">
-            <div class="nome">
-                <p id="texto">VOLEIBOL</p>
-            </div>
         </div>
-        <div class="page">
-            <a class="anchor" id="apresentacao"></a>
-            <p class="mainText">APRESENTAÇÃO</p>
-            <div class="tabela" style="padding-top: 112px;">
-                <table class="resultadoTable" style="margin:0.5em auto;line-height: 0.55em;width:100%;">
-                    <tbody>
-                        <tr>
-                            <th style="width: 50%; padding-bottom: 20px;" colspan="2">Resultados da edição anterior</th>
-                            
-                        </tr>
-                        <tr>
-                            <td style="width: 20%">
-                                <span id="ouro">O</span>
-                            </td>
-                            <td style="width: 80%">Lisboa</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 20%">
-                                <span id="silver">P</span>
-                            </td>
-                            <td style="width: 80%">Porto</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 20%">
-                                <span id="bronze">B</span>
-                            </td>
-                            <td style="width: 80%">Braga</td>
-                        </tr>
-                    </tbody>
-                </table><!--programaTable-->
-            </div><!--tabela-->
-            <canvas id="chartjs-1" class="chartjs" width="770" height="385" style="display: block; width: 570px; height: 385px;"></canvas>
-            <script>
-                new Chart(document.getElementById("chartjs-1"),{
-                    "type":"bar",
-                    "data":{"labels":["Lisboa","Braga","Funchal"],"datasets":[{"label":"Número de Vitórias","data":[15,2,1],"fill":false,"backgroundColor":["rgba(255, 159, 64, 0.2)","rgba(75, 192, 192, 0.2)","rgba(54, 162, 235, 0.2)"],"borderColor":["rgb(255, 159, 64)","rgb(75, 192, 192)","rgb(54, 162, 235)"],"borderWidth":1}]},
-                    "options":{
-                        title: {
-                            display: true,
-                            text: 'Resultados Globais na história dos Jogos',
-                            fontSize: 33,
-                            padding: 30,
-                            fontFamily: 'sans-serif',
-                            fontStyle: 'bold',
-                            fontColor: 'black'
-                        },
-                        legend: {
-                            display: false,
-                        },
-                        "scales":{
-                            "yAxes":[{
-                                "ticks":{
-                                    "beginAtZero":true,
-                                    fontSize: 20
-                                },
-                                gridLines: {
-                                    display:false
-                                },
-                                
-                            }],
-                            "xAxes":[{
-                                "ticks":{
-                                    "beginAtZero":false,
-                                    fontSize: 30
-                                },
-                                gridLines: {
-                                    display:false
-                                }
-                            }],
-                             "scaleLabel": { fontSize: 16 }
-                            
-                        },
-                        "tooltips": {
-                            titleFontSize: 25,
-                            bodyFontSize: 25
-                          }
-                    }
-                });
-            </script>
-            <div class="transbox">
-                <div class="container">
-                    <p>O voleibol começou como modalidade nos Jogos Nacionais CDCR em 1971 nos Jogos de Viseu apenas para atletas femininos. Em 1987 esta modalidade passa a ser disputada também por atletas masculinos nos Jogos de Faro. O voleibol deixa de ser uma modalidade praticada nos Jogos durante duas edições (1996 e 1998) para depois voltar como uma modalidade mista nos Jogos de Braga em 2000. Ao longo dos anos Lisboa tem dominado esta modalidade com 15 vitórias.</p>
-                </div><!--container-->
-            </div><!--transbox-->
-            <div class="bar">   
-            </div>
-        </div><!--page-->
         <div class="page">
             <a class="anchor" id="apurados"></a>
             <p class="mainText">APURADOS</p>

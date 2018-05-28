@@ -1,5 +1,7 @@
 .navbar{
-    height: 80px;
+    min-height: 50px;
+    background-color: white;
+    text-align: center;
 }
 
 .main{

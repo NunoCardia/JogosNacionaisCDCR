@@ -1,7 +1,8 @@
 .navbar{
-    height: 80px;
+    min-height: 50px;
+    background-color: white;
+    text-align: center;
 }
-
 .main{
     background-image: url(../imagens/modalidades/tenis_mesa.JPG);
     background-attachment: fixed;
