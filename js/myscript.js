@@ -19,8 +19,8 @@ $(document).ready(function(){
                 $(".navbar").css('background-color','#808080');
                 $(".navbar").css('height','50px !important');
                 $(".navbar-brand").css('display','none');
-                $(".navbar-nav > a").css('color','#2d2d2d');
-                $(".dropdown > a").css('color','#2d2d2d');
+                $(".navbar-nav > a").css('color','white');
+                $(".dropdown > a").css('color','white');
                 $("#myTogglerNav").css('color','black');
             }
             else{
